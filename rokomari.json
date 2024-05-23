@@ -1,0 +1,158 @@
+{
+  "createdAt": "2024-05-22T12:26:42.184667800",
+  "session_data": {
+    "session_storage": {},
+    "local_storage": {
+      "crisp-client/session/a4685f43-8022-4142-b9cb-b786c6628a92:e": "1716374964090",
+      "crisp-client/session/a4685f43-8022-4142-b9cb-b786c6628a92": "session_7ef680af-d859-4c23-9cdf-62e918a1699c",
+      "lastExternalReferrerTime": "1716359192236",
+      "lastExternalReferrer": "empty"
+    },
+    "cookies": [
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "userActTraSerBrowId",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Sep 19 12:26:40 BDT 2024",
+        "value": "937a0d60-7fb8-48f3-8ba0-4389c6e7a0f9"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "nt_req_con_indx",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Mon May 27 12:26:31 BDT 2024",
+        "value": "[\"nt_all_index\"]"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_ga_N8S2Z6QJVP",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Jun 26 12:26:42 BDT 2025",
+        "value": "GS1.1.1716359189.1.1.1716359202.47.0.0"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_gat_UA-28456258-1",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 22 12:27:30 BDT 2024",
+        "value": "1"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "SPRING_SECURITY_REMEMBER_ME_COOKIE",
+        "isHttpOnly": true,
+        "isSecure": false,
+        "expiry": "Thu May 22 12:26:39 BDT 2025",
+        "value": "aHVtYWlyYWd1bHNoYW4yODA3QGdtYWlsLmNvbToxNzQ3ODk1MTk5MTQ3OjAwNTUwNjZmNTczZGVlNjk1NDA0OTFkNDRkZmU3MjQw"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "JSESSIONID",
+        "isHttpOnly": true,
+        "isSecure": false,
+        "value": "3A858E6B71C93A46FE7257D7FF7DC391"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "nt_pop_shown",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 22 12:55:19 BDT 2024",
+        "value": "[\"nt_all_pop_shown\"]"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_gid",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu May 23 12:26:41 BDT 2024",
+        "value": "GA1.2.200247125.1716359191"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "crisp-client%2Fsession%2Fa4685f43-8022-4142-b9cb-b786c6628a92",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Nov 21 00:26:36 BDT 2024",
+        "value": "session_7ef680af-d859-4c23-9cdf-62e918a1699c"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "userActTraSerSessId",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 22 12:56:40 BDT 2024",
+        "value": "8ce038dc-263c-4106-8c97-2c819d182f0e"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_gat",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 22 12:27:30 BDT 2024",
+        "value": "1"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_ga",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu Jun 26 12:26:41 BDT 2025",
+        "value": "GA1.2.52970460.1716359189"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_fbp",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Tue Aug 20 12:26:41 BDT 2024",
+        "value": "fb.1.1716359192247.325500084"
+      },
+      {
+        "path": "/",
+        "domain": ".rokomari.com",
+        "name": "_gcl_au",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Tue Aug 20 12:26:29 BDT 2024",
+        "value": "1.1.1938961624.1716359189"
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "sururl",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Wed May 22 12:31:34 BDT 2024",
+        "value": "aHR0cHM6Ly93d3cucm9rb21hcmkuY29tL2Jvb2s="
+      },
+      {
+        "path": "/",
+        "domain": "www.rokomari.com",
+        "name": "entryPopup",
+        "isHttpOnly": false,
+        "isSecure": false,
+        "expiry": "Thu May 23 00:26:31 BDT 2024",
+        "value": "true"
+      }
+    ]
+  },
+  "username": "humairagulshan2807@gmail.com"
+}
