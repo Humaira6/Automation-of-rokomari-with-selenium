@@ -3,8 +3,10 @@ package Pages;
 import Utilities.webdriverSetup;
 //import io.qameta.allure.Allure;
 import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.ByteArrayInputStream;
+import java.time.Duration;
 
 public class BasicPage extends webdriverSetup {
 
@@ -47,6 +49,8 @@ public class BasicPage extends webdriverSetup {
             return false;
         }
     }
+
+
 
 //    public void addScreenshot(String name){
 //        Allure.addAttachment(name,new ByteArrayInputStream(((TakesScreenshot)getBrowser()).getScreenshotAs(OutputType.BYTES)));

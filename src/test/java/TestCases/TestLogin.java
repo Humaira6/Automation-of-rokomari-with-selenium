@@ -11,11 +11,11 @@ import java.io.IOException;
 
 public class TestLogin extends webdriverSetup {
 
-    HomePage homePage=new HomePage();
-    SignIn signIn=new SignIn();
-    BookPage bookPage=new BookPage();
+    HomePage homePage = new HomePage();
+    SignIn signIn = new SignIn();
+    BookPage bookPage = new BookPage();
 
-    //TestLogin testLogin=new TestLogin();
+
     @Test
 
     public void TestLogin() throws IOException, InterruptedException {
@@ -33,14 +33,9 @@ public class TestLogin extends webdriverSetup {
 
         sessionManager.usePreviousLoggedInSession("rokomari");
         Thread.sleep(3000);
-//        bookPage.clickOnElement(bookPage.writer);
-//        Thread.sleep(3000);
+//
 
     }
-
-
-
-
 
 
 }
