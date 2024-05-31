@@ -19,5 +19,9 @@ public By CityBox=By.xpath("//select[@id='js--city']");
 public By AreaBox=By.xpath("//select[@id='js--area']");
 public By AddressBox=By.xpath("//fieldset[@class='mb-0']//textarea[@id='address']");
 
+public By courierInfoBox=By.xpath("//select[@id='js--courier']");
+public By confirmOrderBtn=By.xpath("//span[normalize-space()='Confirm Order']");
+public By errorMessage=By.xpath("//span[@class='text-danger js--require-msg mr-3 ']");
+
 
 }
