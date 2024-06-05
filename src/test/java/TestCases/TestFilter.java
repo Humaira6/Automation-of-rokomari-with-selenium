@@ -18,7 +18,6 @@ public class TestFilter extends webdriverSetup {
 
     TestSelectWriter testSelectWriter = new TestSelectWriter();
     Authors authors = new Authors();
-    CartPage cartPage = new CartPage();
 
 
 
@@ -34,8 +33,10 @@ public class TestFilter extends webdriverSetup {
         authors.clickOnElement(authors.SomoKalinUpponnash);
         actions.scrollByAmount(0, 250).build().perform();
         authors.clickOnElement(authors.RoChonaSongkolonOSomogro);
+        authors.addScreenshot("After Filter");
         actions.scrollToElement(getBrowser().findElement(authors.NextBtn)).build().perform();
         actions.scrollByAmount(0, 200).build().perform();
+        actions.click(getBrowser().findElement(authors.NextBtn)).build().perform();
         Thread.sleep(2000);
 
 

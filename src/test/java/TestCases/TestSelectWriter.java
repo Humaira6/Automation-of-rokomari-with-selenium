@@ -2,7 +2,6 @@ package TestCases;
 
 import Pages.BookPage;
 import Pages.HomePage;
-import Pages.SignIn;
 import Utilities.webdriverSetup;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -12,8 +11,6 @@ import java.io.IOException;
 
 public class TestSelectWriter extends webdriverSetup {
 
-    HomePage homePage = new HomePage();
-    SignIn signIn = new SignIn();
     BookPage bookPage = new BookPage();
     TestLogin testLogin=new TestLogin();
 
@@ -28,6 +25,7 @@ public class TestSelectWriter extends webdriverSetup {
         actions.sendKeys(Keys.ARROW_DOWN).build().perform();
         actions.scrollToElement(getBrowser().findElement(bookPage.Humayun)).build().perform();
         actions.click(bookPage.getElement(bookPage.Humayun)).build().perform();
+        bookPage.addScreenshot("After writer selection");
         Thread.sleep(3000);
 
 

@@ -2,26 +2,21 @@ package Pages;
 
 import org.openqa.selenium.By;
 
-public class ShippingPage extends BasicPage{
+public class ShippingPage extends BasicPage {
 
-    public String Name="Humaira";
-    public String PhoneNum="01772978972";
-    public String AlternativePhoneNum="";
+    public By NameBox = By.xpath("//div[@class='shipping-form-container']//input[@id='name']");
+    public By PhoneNoInputBox = By.xpath("//fieldset[@class='group']//input[@id='phone']");
+    public By AlternativePhoneNoBox = By.xpath("//fieldset[@class='group']//input[@id='phone2']");
+    public By CountryBox = By.xpath("//select[@id='js--country']");
+    public By CityBox = By.xpath("//select[@id='js--city']");
 
-    public String Address="House 78/79";
-    public By NameBox=By.xpath("//div[@class='shipping-form-container']//input[@id='name']");
-public By PhoneNoInputBox= By.xpath("//fieldset[@class='group']//input[@id='phone']");
-public By AlternativePhoneNoBox=By.xpath("//fieldset[@class='group']//input[@id='phone2']");
-public By CountryBox=By.xpath("//select[@id='js--country']");
-public By CityBox=By.xpath("//select[@id='js--city']");
+    public By AreaBox = By.xpath("//select[@id='js--area']");
 
-//public By DhakaCity=By.xpath("")
-public By AreaBox=By.xpath("//select[@id='js--area']");
-public By AddressBox=By.xpath("//fieldset[@class='mb-0']//textarea[@id='address']");
+    public By courierInfoBox = By.xpath("//select[@id='js--courier']");
+    //public By confirmOrderBtn = By.xpath("//span[normalize-space()='Confirm Order']");
 
-public By courierInfoBox=By.xpath("//select[@id='js--courier']");
-public By confirmOrderBtn=By.xpath("//span[normalize-space()='Confirm Order']");
-public By errorMessage=By.xpath("//span[@class='text-danger js--require-msg mr-3 ']");
+    public By confirmOrderBtn=By.cssSelector("#js--total-amount-confirm-btn");
+    public By errorMessage = By.xpath("//span[@class='text-danger js--require-msg mr-3 ']");
 
 
 }

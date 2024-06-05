@@ -1,7 +1,7 @@
 package Pages;
 
 import Utilities.webdriverSetup;
-//import io.qameta.allure.Allure;
+import io.qameta.allure.Allure;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -52,9 +52,9 @@ public class BasicPage extends webdriverSetup {
 
 
 
-//    public void addScreenshot(String name){
-//        Allure.addAttachment(name,new ByteArrayInputStream(((TakesScreenshot)getBrowser()).getScreenshotAs(OutputType.BYTES)));
-//    }
+    public void addScreenshot(String name){
+        Allure.addAttachment(name,new ByteArrayInputStream(((TakesScreenshot)getBrowser()).getScreenshotAs(OutputType.BYTES)));
+    }
 
 
 }

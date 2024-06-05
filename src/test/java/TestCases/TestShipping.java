@@ -79,7 +79,7 @@ public class TestShipping extends webdriverSetup {
             selectCourier.selectByVisibleText(courier);
         }
 
-        // Add assertions to verify the correct selections
+
     }
 
 }

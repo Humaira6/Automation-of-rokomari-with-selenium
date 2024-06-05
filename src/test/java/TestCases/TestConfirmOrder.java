@@ -20,12 +20,15 @@ public class TestConfirmOrder extends webdriverSetup {
         getBrowser().get("https://www.rokomari.com/shipping/new?isgift=0&isShowShippingInCartPage=false&selectedAddressId=");
         Thread.sleep(3000);
         Actions actions=new Actions(getBrowser());
+
         actions.scrollToElement(getBrowser().findElement(shippingPage.confirmOrderBtn)).build().perform();
 
-       shippingPage.clickOnElement(shippingPage.confirmOrderBtn);
+        actions.scrollByAmount(0,200).build().perform();
+        shippingPage.clickOnElement(shippingPage.confirmOrderBtn);
 
-       String Message = shippingPage.getElement(shippingPage.errorMessage).getText();
-       System.out.println(Message);
+        String Message = shippingPage.getElement(shippingPage.errorMessage).getText();
+        shippingPage.addScreenshot("Error message");
+        System.out.println(Message);
 
 
 

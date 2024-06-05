@@ -1,7 +1,5 @@
 package TestCases;
 
-import Pages.PaymentMethod;
-import Pages.ShippingPage;
 import Utilities.DataSet;
 import Utilities.webdriverSetup;
 import org.openqa.selenium.By;

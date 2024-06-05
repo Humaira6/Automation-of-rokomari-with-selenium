@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/WebAutomation/Rokomari/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.TestAddToCart">
+                <methods>
+                    <include name="CheckAddToCart"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestConfirmOrder">
+                <methods>
+                    <include name="confirmOrderWithoutDetailsInfo"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestFilter">
+                <methods>
+                    <include name="CheckFilter"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestLogin">
+                <methods>
+                    <include name="TestLogin"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestPaymentMethod">
+                <methods>
+                    <include name="TestPayment"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestSelectWriter">
+                <methods>
+                    <include name="SelectWriter"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestShipping">
+                <methods>
+                    <include name="TestShippingDetails"/>
+                    <include name="testAddressSelection"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

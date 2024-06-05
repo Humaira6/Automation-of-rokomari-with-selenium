@@ -195,4 +195,14 @@ public class SessionManager {
 
         Thread.sleep(10000);
     }
+
+    public void clearLocalStorage() {
+        LocalStorage localStorage = webStorage.getLocalStorage();
+        localStorage.clear();
+    }
+
+    public void clearSessionStorage() {
+        SessionStorage sessionStorage = webStorage.getSessionStorage();
+        sessionStorage.clear();
+    }
 }

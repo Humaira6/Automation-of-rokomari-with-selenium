@@ -1,8 +1,6 @@
 package TestCases;
 
-import Pages.BookPage;
 import Pages.HomePage;
-import Pages.SignIn;
 import Utilities.SessionManager;
 import Utilities.webdriverSetup;
 import org.testng.annotations.Test;
@@ -12,8 +10,7 @@ import java.io.IOException;
 public class TestLogin extends webdriverSetup {
 
     HomePage homePage = new HomePage();
-    SignIn signIn = new SignIn();
-    BookPage bookPage = new BookPage();
+
 
 
     @Test
