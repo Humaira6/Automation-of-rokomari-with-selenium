@@ -23,6 +23,11 @@
                     <include name="TestLogin"/>
                 </methods>
             </class>
+           <!-- <class name="TestCases.TestLogout">
+                <methods>
+                    <include name="CheckLogout"/>
+                </methods>
+            </class>!-->
             <class name="TestCases.TestPaymentMethod">
                 <methods>
                     <include name="TestPayment"/>
@@ -37,6 +42,11 @@
                 <methods>
                     <include name="TestShippingDetails"/>
                     <include name="testAddressSelection"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestLogout">
+                <methods>
+                    <include name="CheckLogout"/>
                 </methods>
             </class>
         </classes>

@@ -2,7 +2,7 @@ package TestCases;
 
 import Pages.HomePage;
 import Pages.Logout;
-import Utilities.SessionManager;
+//import Utilities.SessionManager;
 import Utilities.webdriverSetup;
 import junit.framework.Assert;
 import org.openqa.selenium.By;
@@ -31,12 +31,12 @@ public class TestLogout extends webdriverSetup {
         getBrowser().manage().deleteAllCookies();
 
         Thread.sleep(2000);
-        SessionManager sessionManager = new SessionManager(getBrowser());
+        //SessionManager sessionManager = new SessionManager(getBrowser());
 
         // Clear all cookies, local storage, and session storage to ensure the session is terminated
         getBrowser().manage().deleteAllCookies();
-        sessionManager.clearLocalStorage();
-        sessionManager.clearSessionStorage();
+        //sessionManager.clearLocalStorage();
+        //sessionManager.clearSessionStorage();
 
         // Refresh the page to ensure changes take effect
         getBrowser().navigate().refresh();
