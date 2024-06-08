@@ -10,6 +10,6 @@ public By NextButton=By.xpath("//button[@id='js--btn-next']");
 
 public By OTPInputBox=By.xpath("//input[@placeholder='OTP']");
 
-public By LoginButton=By.cssSelector("form[id='otp-login-form'] button[type='submit']");
+public By LoginButton=By.xpath("//form[@id='otp-login-form']//button[@type='submit'][normalize-space()='Login']");
 
 }

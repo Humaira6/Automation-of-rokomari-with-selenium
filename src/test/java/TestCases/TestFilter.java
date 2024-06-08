@@ -32,6 +32,7 @@ public class TestFilter extends webdriverSetup {
 
         authors.clickOnElement(authors.SomoKalinUpponnash);
         actions.scrollByAmount(0, 250).build().perform();
+        actions.scrollToElement(getBrowser().findElement(authors.RoChonaSongkolonOSomogro)).build().perform();
         authors.clickOnElement(authors.RoChonaSongkolonOSomogro);
         authors.addScreenshot("After Filter");
         actions.scrollToElement(getBrowser().findElement(authors.NextBtn)).build().perform();
